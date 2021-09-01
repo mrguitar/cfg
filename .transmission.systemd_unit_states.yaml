@@ -1,0 +1,13 @@
+- unit: rpm-ostreed-automatic.timer
+  enabled: true
+  started: true
+- unit: applyupdate.timer
+  enabled: true
+  started: true
+- unit: podman-auto-update.timer
+  enabled: true
+  started: true
+- unit: container-boinc.service
+  enabled: true
+  started: true
+
